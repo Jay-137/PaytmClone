@@ -12,9 +12,12 @@
     <div class="wrapper h-screen w-screen overflow-x-hidden">
         <!-- navbar -->
         <nav class=" bg-white h-24 w-full z-50 flex justify-center shadow-lg sticky top-0">
-            <div class=" flex justify-between items-center min-w-[68%]">
+            <div class=" flex justify-between items-center min-w-[68%] laptop:w-full">
+                <div class="flex items-center gap-3" >
+                <p class="hidden laptop:block"><i class="fa-solid fa-bars ml-5"></i></p>
                 <img src="PaytmAsseests/asset 0.svg" alt="" class="cursor-pointer">
-                <div class="flex font-medium justify-between min-w-[63%]">
+                </div>
+                <div class="flex font-medium justify-between min-w-[63%] laptop:hidden">
                     <p class="hover:bg-slate-100 p-2 rounded-sm cursor-pointer">Paytm for Consumer</p>
                     <p class="hover:bg-slate-100 p-2 rounded-sm cursor-pointer">Paytm for Business</p>
                     <p class="hover:bg-slate-100 p-2 rounded-sm cursor-pointer">Investor Relations</p>
@@ -33,21 +36,21 @@
             </div>
         </nav>
         <!-- smileypart -->
-        <section class=" bg-[#F4F4F4] flex justify-center items-center">
-            <div class=" flex items-center">
-                <p class="font-bold">No Wallet KYC Required</p>
-                <p class="text-2xl">😊</p>
-                <p class="font-medium mr-1">to pay using UPI on Paytm. </p>
-                <p class="font-bold cursor-pointer"> Learn More.</p>
-            </div>
+        <section class=" bg-[#F4F4F4] flex justify-center items-center w-full">
+            <p class=" text-center">
+                <span class="font-bold">No Wallet KYC Required</span>
+                <span class="text-2xl">😊</span>
+                <span class="font-medium mr-1">to pay using UPI on Paytm. </span>
+                <span class="font-bold cursor-pointer"> Learn More.</span>
+            </p>
         </section>
         <!-- paymentsApp -->
-        <section class="w-screen h-2/3 bg-white flex items-center justify-end">
-            <div class="min-w-[86%] flex items-center justify-between h-full">
-            <div class="min-w-[450px] flex flex-col items-start h-3/4 justify-between ">
-                <img class="size-16"   src="PaytmAsseests/asset 2.avif" alt="">
+        <section class="w-screen h-2/3 bg-white flex items-center justify-end tablet:justify-center ">
+            <div class="min-w-[86%] flex items-center justify-between h-full tablet:flex-col-reverse">
+            <div class="min-w-[450px] flex flex-col items-start h-3/4 justify-between tablet:justify-evenly tablet:items-center tablet:text-center">
+                <img class="size-16 tablet:hidden"   src="PaytmAsseests/asset 2.avif" alt="">
                 <div><h1 class="font-bold text-5xl w-[450px] mb-4">India's Most-loved Payments App</h1>
-                <p class="w-96 font-medium">Recharge & pay bills, book flights & movie tickets,
+                <p class="w-96 font-medium tablet:w-72 tablet:m-auto">Recharge & pay bills, book flights & movie tickets,
                 open a savings account, invest in stocks & mutual
                 funds, and do a lot more.</p></div>
                 <button class="bg-black py-2 px-4 flex justify-evenly gap-4 rounded-3xl items-center group hover:bg-white 
@@ -58,7 +61,7 @@
                 </button>
             </div>
             <div class="w-fit flex-shrink-0 ">
-                <img class="size-96" src="PaytmAsseests/asset 3.avif" alt="">
+                <img class="size-96 tablet:size-72 tablet:pt-5" src="PaytmAsseests/asset 3.avif" alt="">
             </div>
             </div>
         </section>
@@ -79,19 +82,19 @@
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 6.png" alt="">
                                 <p class="text-white w-[6rem]">Recharge DTH Connection <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] mobile:hidden h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 7.png" alt="">
                                 <p class="text-white w-[5.5rem]">Book Gas Cylinder <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] tablet:hidden h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 8.png" alt="">
                                 <p class="text-white w-[6.5rem]">Pay Broadband & Landline Bill <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] tablet:hidden h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 9.png" alt="">
                                 <p class="text-white w-[5.5rem]">Pay Education Fee <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] tablet:hidden h-[10.25rem] hover:bg-[#00B0E3] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 10.png" alt="">
                                 <p class="text-white w-[5.5rem]">All Payments Services <i class="fa-solid fa-angle-right"></i></p>
                             </div>
@@ -114,19 +117,19 @@
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 13.png" alt="">
                                 <p class="text-white w-[4rem]">Bus Tickets <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] mobile:hidden h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 14.avif" alt="">
                                 <p class="text-white w-[4rem]">Train Tickets <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] tablet:hidden h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 15.png" alt="">
                                 <p class="text-white w-[5.5rem]">Buy Insurance <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] tablet:hidden h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 16.png" alt="">
                                 <p class="text-white w-[4rem]">International Flights <i class="fa-solid fa-angle-right"></i></p>
                             </div>
-                            <div class="w-[8.5rem] h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
+                            <div class="w-[8.5rem] tablet:hidden h-[10.25rem] hover:bg-[#0D3D80] p-3 rounded-md cursor-pointer transition-all">
                                 <img class="w-14 h-14 mb-3" src="PaytmAsseests/asset 17.webp" alt="">
                                 <p class="text-white w-[4rem]">Invest in Stocks <i class="fa-solid fa-angle-right"></i></p>
                             </div>
@@ -139,14 +142,14 @@
             <div class="min-w-[66%] py-20">
                 <h1 class="text-5xl font-bold mb-10">Paytm Payment Intruments</h1>
                 <div class="bg-white w-full h-[550px] justify-around flex rounded-xl items-center mb-10">
-                    <div class=" flex flex-col justify-evenly items-start pl-24  h-3/4">
+                    <div class=" flex flex-col justify-evenly items-start pl-24 mobile:pl-8  h-3/4">
                         <div class="flex items-center gap-5">
                             <img class="size-16" src="PaytmAsseests/asset 18.png" alt="">
                             <p class="font-bold w-14">Paytm Wallet</p>
                         </div>
                            <div class="flex flex-col gap-6 items-start"> <h1 class="font-bold text-3xl w-80">The Fastest Way to
                                 Pay In-store & Online.</h1>
-                            <p class="font-semibold w-[450px]">Load up your Paytm Wallet for free and make payments
+                            <p class="font-semibold w-[450px] tablet:w-[300px]">Load up your Paytm Wallet for free and make payments
                                 in a jiffy at over 21 milion stores, websites and apps.</p>
                             <button class="bg-black py-2 px-4 flex gap-4 rounded-3xl items-center group hover:bg-white 
                 border-2 border-black">
@@ -156,10 +159,10 @@
                 </button>
                 </div>
                     </div >
-                    <div class="flex-shrink-0"><img class="w-96 object-contain" src="PaytmAsseests/asset 19.webp" alt=""></div>
+                    <div class="flex-shrink-0"><img class="w-96 object-contain tablet:hidden" src="PaytmAsseests/asset 19.webp" alt=""></div>
                 </div>
                 <div class="bg-white w-full h-[550px] justify-around flex rounded-xl items-center mb-10">
-                    <div class="   flex flex-col justify-evenly items-start pl-24  h-3/4">
+                    <div class="   flex flex-col justify-evenly items-start pl-24 mobile:pl-8  h-3/4">
                         <div class="flex items-center gap-5">
                             <img class="size-16" src="PaytmAsseests/asset 20.png" alt="">
                             <p class="font-bold w-28">UPI Money Transfer</p>
@@ -167,7 +170,7 @@
                            <div class="flex flex-col gap-6 items-start"> <h1 class="font-bold text-3xl w-80">Pay anyone directly
                             from your bank
                             account.</h1>
-                            <p class="font-semibold w-[450px]">Pay anyone, everywhere. Make contactless & secure.
+                            <p class="font-semibold w-[450px] tablet:w-[300px]">Pay anyone, everywhere. Make contactless & secure.
                                 payments in-stores or online using Paytm Wallet or
                                 Directly from your Bank Account. Plus, send & receive
                                 money from anyone.</p>
@@ -179,10 +182,10 @@
                 </button>
                 </div>
                     </div>
-                    <div class="flex-shrink-0" ><img class="w-96 object-contain" src="PaytmAsseests/asset 21.webp" alt=""></div>
+                    <div class="flex-shrink-0" ><img class="w-96 object-contain tablet:hidden" src="PaytmAsseests/asset 21.webp" alt=""></div>
                 </div>
                 <div class="bg-white gap-5 w-full h-[550px] flex justify-around rounded-xl items-center mb-10">
-                    <div class="   flex flex-col justify-evenly items-start pl-24  h-3/4">
+                    <div class="   flex flex-col justify-evenly items-start pl-24 mobile:pl-8  h-3/4">
                         <div class="flex items-center gap-5">
                             <img class="size-32 object-contain" src="PaytmAsseests/asset 22.webp" alt="">
                             
@@ -190,7 +193,7 @@
                            <div class="flex flex-col gap-6 items-start">
                             <div><h1 class="font-bold text-3xl w-80">Want it?</h1>
                             <h1 class="font-bold text-3xl w-80">No more waiting for it.</h1></div>
-                            <p class="font-semibold w-[450px]">With Paytm Postpaid, your wishlist doesn't have to be
+                            <p class="font-semibold w-[450px] tablet:w-[300px]">With Paytm Postpaid, your wishlist doesn't have to be
                             on the waitlist. Shop for the things you want today and
                             pay for them next month.</p>
                             <button class="bg-blu py-2 px-4 relative  flex gap-3  rounded-3xl items-center group hover:bg-bloo transition-all duration-300">
@@ -201,10 +204,11 @@
                 </button>
                 </div>
                     </div>
-                    <div class=" flex-shrink-0 flex justify-center"><img class="h-96 object-contain" src="PaytmAsseests/asset 23.webp" alt=""></div>
+                    <div class=" flex-shrink-0 flex justify-center"><img class="h-96 object-contain tablet:hidden" src="PaytmAsseests/asset 23.webp" alt=""></div>
                 </div>
-                <div class="flex items-center justify-between ">
-                    <div class="h-[550px] w-[47%] bg-white rounded-xl mb-10 flex flex-col justify-center items-start px-10 gap-6 ">
+                <div class="flex items-center justify-between tablet:flex-col-reverse tablet:items-center">
+                    <div class="h-[550px] w-[47%] bg-white rounded-xl mb-10 flex flex-col justify-center 
+                    tablet:w-[90%] items-start px-10 gap-6 ">
                             <img src="PaytmAsseests/asset 24.png" class="h-24 object-contain" alt="">
                             <h1 class="font-bold text-4xl w-[90%]">Unlimited Cashback
                                 Every time</h1>
@@ -212,7 +216,8 @@
                                 with assured Cashback and incredible offers.</p>
                             <img class="size-80 " src="PaytmAsseests/asset 25.webp" alt="">
                     </div>
-                    <div class="h-[550px] w-[47%] bg-white rounded-xl mb-10 flex flex-col justify-center items-start px-10 gap-6 pt-[66px] ">
+                    <div class="h-[550px] w-[47%] bg-white rounded-xl mb-10 flex flex-col justify-center 
+                    tablet:w-[90%] items-start px-10 gap-6 pt-[66px] ">
                             <img src="PaytmAsseests/asset 26.png" class="h-6 object-contain" alt="">
                             <h1 class="font-bold text-4xl w-[370px]">India’s Most
                             Sincere Credit Card</h1>
@@ -224,11 +229,11 @@
             </div>
         </section>
         <!-- financial Services -->
-         <section class="w-screen bg-white h-[85%] flex justify-center items-center pb-10">
-            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5">
-               <div class="flex flex-col items-start  h-full justify-around"> 
+         <section class="w-screen bg-white h-[85%] flex justify-center items-center pb-10 tablet:justify-start">
+            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5 tablet:ml-4">
+               <div class="flex flex-col items-start  h-full justify-around "> 
                 <h1 class="font-bold text-[38px]">Financial Services by Paytm</h1>
-                <img class="h-10 object-contain" src="PaytmAsseests/asset 28.png" alt="">
+                <img class="h-10 object-contain " src="PaytmAsseests/asset 28.png" alt="">
                 <h2 class="font-bold text-3xl w-80">India's most sincere
                     bank.</h2>
                 <p class="font-semibold w-[400px]">Paytm Payments Bank offers secure, transparent and
@@ -243,14 +248,15 @@
                 </button>
                 </div>
             <div class=" h-full flex justify-center items-center flex-shrink-0">
-                <img class="h-[350px] object-contain flex-shrink-0" src="PaytmAsseests/asset 29.webp" alt="">
+                <img class="h-[350px] object-contain tablet:hidden flex-shrink-0" src="PaytmAsseests/asset 29.webp" alt="">
             </div>
             </div>
          </section>
          <!-- long term  -->
-          <section class="w-screen bg-[#F5F7F9] bg-center bg-cover bg-[url('/PaytmAsseests/asset_32.avif')] h-[85%] flex justify-center items-center">
-            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5">
-                 <div class=" h-full flex justify-center items-center flex-shrink-0">
+          <section class="w-screen bg-[#F5F7F9] bg-center bg-cover bg-[url('/PaytmAsseests/asset_32.avif')] h-[85%] flex justify-center items-center
+          tablet:justify-start ">
+            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5 tablet:ml-4">
+                 <div class=" h-full flex justify-center items-center flex-shrink-0 tablet:hidden">
                 <img class="h-[350px] object-contain flex-shrink-0" src="PaytmAsseests/asset 31.webp" alt="">
                 </div>
                <div class="flex flex-col items-start  h-[80%] justify-around"> 
@@ -272,8 +278,8 @@
             </div>
          </section>
          <!-- Insurance -->
-          <section class="w-screen bg-white h-[70%] flex justify-center items-center">
-            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5">
+          <section class="w-screen bg-white h-[70%] flex justify-center items-center tablet:justify-start">
+            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5 tablet:ml-4">
                  
                <div class="flex flex-col items-start  h-full justify-around"> 
                 <img class="h-14 object-contain" src="PaytmAsseests/asset 33.webp" alt="">
@@ -289,15 +295,15 @@
                      before:rounded-lg before:scale-x-0 group-hover:before:scale-x-100 before:transition-all before:duration-400"></div>
                 </button>
                 </div>
-           <div class=" h-full flex justify-center items-center flex-shrink-0">
+           <div class=" h-full flex justify-center items-center tablet:hidden flex-shrink-0">
                 <img class="h-[350px] object-contain flex-shrink-0" src="PaytmAsseests/asset 34.webp" alt="">
                 </div>
             </div>
          </section>
          <!-- loan  -->
-          <section class="w-screen bg-[#F5F7F9] h-[70%] flex justify-center items-center">
-            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5">
-                 <div class=" h-full flex justify-center items-center flex-shrink-0">
+          <section class="w-screen bg-[#F5F7F9] h-[70%] flex justify-center items-center tablet:justify-start">
+            <div class="min-w-[65%] h-5/6 flex justify-between items-center gap-5 tablet:ml-4">
+                 <div class=" h-full flex justify-center items-center flex-shrink-0 tablet:hidden">
                 <img class="h-[350px] object-contain flex-shrink-0" src="PaytmAsseests/asset 36.webp" alt="">
                 </div>
                <div class="flex flex-col items-start  h-[80%] justify-around"> 
@@ -335,12 +341,12 @@
                 </button>
                     </div>
                     <div class="flex-shrink-0">
-                        <img class="h-[350px] object-contain" src="PaytmAsseests/asset 37.avif" alt="">
+                        <img class="h-[350px] object-contain tablet:hidden" src="PaytmAsseests/asset 37.avif" alt="">
                     </div>
                     </div>
                 </div>
                 <div class="bg-[#F5F7F9] flex items-end h-[500px] justify-end min-w-[100%] rounded-xl">
-                   <div class="flex items-center min-w-[85%] h-full justify-between">
+                   <div class="flex items-center min-w-[85%] h-full justify-between gap-8">
                      <div class="flex flex-col items-start justify-around h-[60%]">
                         <h1 class="font-bold text-4xl w-96">In-shop payments
                             powered by Paytm.</h1>
@@ -355,19 +361,19 @@
                 </button>
                     </div>
                     <div class="flex-shrink-0">
-                        <img class="h-72 object-contain" src="PaytmAsseests/asset 38.webp" alt="">
+                        <img class="h-72 object-contain tablet:hidden" src="PaytmAsseests/asset 38.webp" alt="">
                     </div>
                     </div>
                 </div>
             </div>
           </section>
           <!-- business tools  -->
-           <section class="w-screen h-full bg-[#FFFFFF] flex justify-center items-center mb-96">
-                <div class="min-w-[66%] flex flex-col items-start justify-evenly h-[70%] ">
+           <section class="w-screen h-full bg-[#FFFFFF] flex justify-center items-center my-96 mobile:h-fit">
+                <div class="min-w-[66%] flex flex-col items-start justify-evenly ">
                     <h1 class="font-bold text-4xl w-96">Business Tools to help
                         your business grow</h1>
-                    <div class="min-w-full h-[40%] flex items-center justify-between">
-                        <div  class="flex flex-col items-start justify-start min-w-1/4 h-full flex-shrink-0 gap-5">
+                    <div class="min-w-full h-[40%] flex items-center justify-between flex-wrap mobile:justify-center">
+                        <div  class="flex flex-col items-start justify-start min-w-[25%] mobile:w-[51%] h-full flex-shrink-0 gap-5">
                             <img class="w-52 object-contain flex-shrink-0" src="PaytmAsseests/asset 39.webp" alt="">
                             <h1 class="text-2xl font-bold w-32">POS Billing
                                 Software</h1>
@@ -380,7 +386,7 @@
                             </svg>
                             </div></div>
                         </div>
-                        <div  class="flex flex-col items-start justify-start min-w-1/4 h-full flex-shrink-0 gap-5">
+                        <div  class="flex flex-col items-start justify-start min-w-[25%] mobile:w-[51%] h-full flex-shrink-0 gap-5">
                             <img class="w-52 object-contain flex-shrink-0" src="PaytmAsseests/asset 41.webp" alt="">
                             <h1 class="text-2xl font-bold w-48">Paytm for
                             Business App</h1>
@@ -395,7 +401,7 @@
 
                             </div></div>
                         </div>
-                        <div  class="flex flex-col items-start justify-start min-w-1/4 h-full flex-shrink-0 gap-5">
+                        <div  class="flex flex-col items-start justify-start min-w-[25%] mobile:w-[51%] h-full flex-shrink-0 gap-5">
                             <img class="w-52 object-contain flex-shrink-0" src="PaytmAsseests/asset 42.webp" alt="">
                             <h1 class="text-2xl font-bold w-48">Advertise on
                             Paytm</h1>
@@ -410,7 +416,7 @@
 
                             </div></div>
                         </div>
-                        <div  class="flex flex-col items-start justify-start min-w-1/4 h-full flex-shrink-0 gap-5">
+                        <div  class="flex flex-col items-start justify-start min-w-[25%] mobile:w-[51%] mobile:gap-12 h-full flex-shrink-0 gap-5">
                             <img class="w-52 object-contain flex-shrink-0" src="PaytmAsseests/asset 43.webp" alt="">
                             <h1 class="text-2xl font-bold w-32">Business
                                 Khata</h1>
@@ -428,9 +434,9 @@
                 </div>
            </section>
            <!-- bull -->
-           <section class="bg-[#FFFFFF] w-screen flex mb-36 justify-center items-center h-[80%]">
-               <div class="min-w-[70%] h-full flex flex-col -mr-36 items-start justify-between"> 
-                <div class="w-full  flex items-center justify-between h-[45%] gap-10 relative">
+           <section class="bg-[#FFFFFF] w-screen flex mb-36 justify-center items-center h-[80%] mobile:justify-start mobile:ml-2">
+               <div class="w-[90%] h-full flex flex-col -mr-36 items-start justify-start gap-36"> 
+                <div class="w-[80%]  flex items-center justify-between h-[45%] gap-10 relative laptop:h-[30%] mobile:w-[95%]">
                     <div class="flex flex-col items-start justify-between w-52 h-full flex-shrink-0 ">
                         <img class="w-40" src="PaytmAsseests/asset 44.webp" alt="">
                         <div class="flex flex-col items-start gap-2"><p class="font-semibold">Get started on wealth
@@ -465,8 +471,8 @@
                             </div>
                             <p class="font-bold text-white w-[60%] text-center">Buy Gold</p>
                         </div>
-                        <div class="bg-[#4CCFF5] h-full p-1 rounded-xl flex flex-col items-center gap-3 group flex-shrink-0 hover:bg-bloo cursor-pointer">
-                            <div class="overflow-hidden rounded-xl">
+                        <div class="bg-[#4CCFF5] h-full p-1 rounded-xl laptop:hidden flex flex-col items-center gap-3 group flex-shrink-0 hover:bg-bloo cursor-pointer">
+                            <div class="overflow-hidden rounded-xl ">
                                 <img class="w-44 h-40 group-hover:scale-110 transition-all duration-200" src="PaytmAsseests/asset 49.webp" alt="">
                             </div>
                             <p class="font-bold text-white w-[65%] text-center">Invest in Mutual Funds</p>
@@ -477,7 +483,7 @@
                             <i class="fa-solid fa-angle-right text-bloo text-xl group-hover:text-blu"></i>
                     </div>
                 </div>
-                <div class="min-w-[70%]  flex items-center justify-between h-[43%] gap-10 relative">
+                <div class="w-[80%]  flex items-center justify-between h-[43%] gap-10 relative laptop:h-[30%] mobile:w-[95%]">
                     <div class="flex flex-col items-start justify-between w-52 h-full flex-shrink-0 ">
                         <img class="w-48" src="PaytmAsseests/asset 50.webp" alt="">
                         <div class="flex flex-col items-start gap-2"><p class="font-semibold">Best travel soutions with
@@ -520,7 +526,7 @@
                           
                         </div>
                         <div class="bg-[#4CCFF5] w-40 h-full p-1 pl-2 opacity-80 rounded-xl flex flex-col items-start pt-10 gap-3 group flex-shrink-0
-                         hover:bg-bloo cursor-pointer hover:opacity-100">
+                         hover:bg-bloo cursor-pointer hover:opacity-100 laptop:hidden">
                             <div class="overflow-hidden rounded-xl h-20 ">
                                 <img class="w-16 transition-all duration-200" src="PaytmAsseests/asset 55.avif" alt="">
                             </div>
@@ -539,13 +545,13 @@
            <!-- footer -->
             <footer class="w-screen  bg-[#F5F7F9] flex justify-center items-center  py-44">
                 <div class="min-w-[70%] min-h-[800px] flex flex-col items-start  justify-between">
-                        <div class="flex justify-between items-center w-full">
-                            <div class="flex  justify-between w-[53%] items-center">
-                            <p class="font-bold text-lg flex-shrink-0 w-[35%]">Download Paytm App to Pay from anywhere</p>
+                        <div class="flex justify-between items-center w-full tablet:flex-col tablet:gap-10">
+                            <div class="flex  justify-between w-[53%] items-cente tablet:w-fit tablet:flex-col tablet:items-center gap-5">
+                            <p class="font-bold text-lg flex-shrink-0 w-[35%] tablet:w-full">Download Paytm App to Pay from anywhere</p>
                             <img class="cursor-pointer" src="PaytmAsseests/asset 57.svg" alt="">
                             <img class="cursor-pointer" src="PaytmAsseests/asset 58.svg" alt="">
                             </div>
-                            <div class="flex justify-between items-center w-[10%]">
+                            <div class="flex justify-between items-center w-[10%] tablet:w-[60%]">
                                 <img class="cursor-pointer" src="PaytmAsseests/asset 59.svg" alt="">
                                 <img class="cursor-pointer" src="PaytmAsseests/asset 60.svg" alt="">
                                 <img class="cursor-pointer" src="PaytmAsseests/asset 61.svg" alt="">
